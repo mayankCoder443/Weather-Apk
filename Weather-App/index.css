@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: -moz-linear-gradient(
+    44deg,
+    rgb(207, 17, 131),
+    rgb(164, 104, 225)
+  );
+  height: 90vh;
+  overflow: hidden;
+}
+.main-box {
+  background: transparent;
+  width: 450px;
+  border: 3px solid rgb(243, 236, 236);
+  height: 500px;
+  border-radius: 20px;
+  /* box-shadow: 2px 2px 10 10; */
+  margin: 5% auto;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.input #text {
+  width: 258px;
+  height: 36px;
+  padding-left: 18px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.fa-solid {
+  font-size: 33px;
+  color: white;
+  margin-left: 5px;
+  transition: 0.5s all;
+}
+.fa-solid:hover {
+  font-size: 28px;
+  color: azure;
+}
+
+.image-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+
+.wind-section {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 30px 20px 50px;
+  justify-content: space-around;
+}
+
+.humidity {
+  font-size: 50px;
+  /* padding-left: 33px; */
+}
